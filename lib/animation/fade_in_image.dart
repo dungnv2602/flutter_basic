@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
             Center(child: CircularProgressIndicator()),
             Center(
               child: FadeInImage.memoryNetwork(
+                placeholder: null,
                 ///placeholder: kTransparentImage,
                 image: 'https://picsum.photos/250?image=9',
               ),

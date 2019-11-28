@@ -14,31 +14,37 @@ class AbsorbPointerSample extends StatelessWidget {
           child: Column(
             children: <Widget>[
               RaisedButton(
+                onPressed: null,
                 child: Text('button01'),
                 color: Colors.primaries[
                     Random().nextInt(10) % Colors.primaries.length],
               ),
               RaisedButton(
+                onPressed: null,
                 child: Text('button02'),
                 color: Colors.primaries[
                     Random().nextInt(1000) % Colors.primaries.length],
               ),
               RaisedButton(
+                onPressed: null,
                 child: Text('button03'),
                 color: Colors.primaries[
                     Random().nextInt(1000) % Colors.primaries.length],
               ),
               RaisedButton(
+                onPressed: null,
                 child: Text('button04'),
                 color: Colors.primaries[
                     Random().nextInt(1000) % Colors.primaries.length],
               ),
               RaisedButton(
+                onPressed: null,
                 child: Text('button05'),
                 color: Colors.primaries[
                     Random().nextInt(1000) % Colors.primaries.length],
               ),
               RaisedButton(
+                onPressed: null,
                 child: Text('button06'),
                 color: Colors.primaries[
                     Random().nextInt(1000) % Colors.primaries.length],
